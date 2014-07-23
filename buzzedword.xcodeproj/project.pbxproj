@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C08C85197F59FC0066176D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C84197F59FC0066176D /* Foundation.framework */; };
+		16C08C87197F59FC0066176D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C86197F59FC0066176D /* CoreGraphics.framework */; };
+		16C08C89197F59FC0066176D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C88197F59FC0066176D /* UIKit.framework */; };
+		16C08C8F197F59FC0066176D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C08C8D197F59FC0066176D /* InfoPlist.strings */; };
+		16C08C91197F59FC0066176D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08C90197F59FC0066176D /* main.m */; };
+		16C08C95197F59FC0066176D /* hjcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08C94197F59FC0066176D /* hjcAppDelegate.m */; };
+		16C08C97197F59FC0066176D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C08C96197F59FC0066176D /* Images.xcassets */; };
+		16C08C9E197F59FC0066176D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C9D197F59FC0066176D /* XCTest.framework */; };
+		16C08C9F197F59FC0066176D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C84197F59FC0066176D /* Foundation.framework */; };
+		16C08CA0197F59FC0066176D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C08C88197F59FC0066176D /* UIKit.framework */; };
+		16C08CA8197F59FC0066176D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C08CA6197F59FC0066176D /* InfoPlist.strings */; };
+		16C08CAA197F59FC0066176D /* buzzedwordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CA9197F59FC0066176D /* buzzedwordTests.m */; };
+		16C08CB6197F5B560066176D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C08CB5197F5B560066176D /* Main.storyboard */; };
+		16C08CB9197F5DAE0066176D /* hjcBuzzword.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CB8197F5DAE0066176D /* hjcBuzzword.m */; };
+		16C08CBC197F5E810066176D /* hjcBuzzedwordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */; };
+		16C08CBF197F72990066176D /* hjcNewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CBE197F72990066176D /* hjcNewGameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C08CA1197F59FC0066176D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C08C79197F59FC0066176D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C08C80197F59FC0066176D;
+			remoteInfo = buzzedword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C08C81197F59FC0066176D /* buzzedword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buzzedword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C08C84197F59FC0066176D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C08C86197F59FC0066176D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C08C88197F59FC0066176D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C08C8C197F59FC0066176D /* buzzedword-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "buzzedword-Info.plist"; sourceTree = "<group>"; };
+		16C08C8E197F59FC0066176D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C08C90197F59FC0066176D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C08C92197F59FC0066176D /* buzzedword-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "buzzedword-Prefix.pch"; sourceTree = "<group>"; };
+		16C08C93197F59FC0066176D /* hjcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hjcAppDelegate.h; sourceTree = "<group>"; };
+		16C08C94197F59FC0066176D /* hjcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hjcAppDelegate.m; sourceTree = "<group>"; };
+		16C08C96197F59FC0066176D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16C08C9C197F59FC0066176D /* buzzedwordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buzzedwordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C08C9D197F59FC0066176D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16C08CA5197F59FC0066176D /* buzzedwordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "buzzedwordTests-Info.plist"; sourceTree = "<group>"; };
+		16C08CA7197F59FC0066176D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C08CA9197F59FC0066176D /* buzzedwordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buzzedwordTests.m; sourceTree = "<group>"; };
+		16C08CB5197F5B560066176D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		16C08CB7197F5DAE0066176D /* hjcBuzzword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjcBuzzword.h; sourceTree = "<group>"; };
+		16C08CB8197F5DAE0066176D /* hjcBuzzword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcBuzzword.m; sourceTree = "<group>"; };
+		16C08CBA197F5E810066176D /* hjcBuzzedwordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjcBuzzedwordTableViewController.h; sourceTree = "<group>"; };
+		16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcBuzzedwordTableViewController.m; sourceTree = "<group>"; };
+		16C08CBD197F72990066176D /* hjcNewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjcNewGameViewController.h; sourceTree = "<group>"; };
+		16C08CBE197F72990066176D /* hjcNewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcNewGameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C08C7E197F59FC0066176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08C87197F59FC0066176D /* CoreGraphics.framework in Frameworks */,
+				16C08C89197F59FC0066176D /* UIKit.framework in Frameworks */,
+				16C08C85197F59FC0066176D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C08C99197F59FC0066176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08C9E197F59FC0066176D /* XCTest.framework in Frameworks */,
+				16C08CA0197F59FC0066176D /* UIKit.framework in Frameworks */,
+				16C08C9F197F59FC0066176D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C08C78197F59FC0066176D = {
+			isa = PBXGroup;
+			children = (
+				16C08CB5197F5B560066176D /* Main.storyboard */,
+				16C08CBD197F72990066176D /* hjcNewGameViewController.h */,
+				16C08CBE197F72990066176D /* hjcNewGameViewController.m */,
+				16C08CB7197F5DAE0066176D /* hjcBuzzword.h */,
+				16C08CBA197F5E810066176D /* hjcBuzzedwordTableViewController.h */,
+				16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */,
+				16C08CB8197F5DAE0066176D /* hjcBuzzword.m */,
+				16C08C8A197F59FC0066176D /* buzzedword */,
+				16C08CA3197F59FC0066176D /* buzzedwordTests */,
+				16C08C83197F59FC0066176D /* Frameworks */,
+				16C08C82197F59FC0066176D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C08C82197F59FC0066176D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C08C81197F59FC0066176D /* buzzedword.app */,
+				16C08C9C197F59FC0066176D /* buzzedwordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C08C83197F59FC0066176D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C08C84197F59FC0066176D /* Foundation.framework */,
+				16C08C86197F59FC0066176D /* CoreGraphics.framework */,
+				16C08C88197F59FC0066176D /* UIKit.framework */,
+				16C08C9D197F59FC0066176D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C08C8A197F59FC0066176D /* buzzedword */ = {
+			isa = PBXGroup;
+			children = (
+				16C08C93197F59FC0066176D /* hjcAppDelegate.h */,
+				16C08C94197F59FC0066176D /* hjcAppDelegate.m */,
+				16C08C96197F59FC0066176D /* Images.xcassets */,
+				16C08C8B197F59FC0066176D /* Supporting Files */,
+			);
+			path = buzzedword;
+			sourceTree = "<group>";
+		};
+		16C08C8B197F59FC0066176D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C08C8C197F59FC0066176D /* buzzedword-Info.plist */,
+				16C08C8D197F59FC0066176D /* InfoPlist.strings */,
+				16C08C90197F59FC0066176D /* main.m */,
+				16C08C92197F59FC0066176D /* buzzedword-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16C08CA3197F59FC0066176D /* buzzedwordTests */ = {
+			isa = PBXGroup;
+			children = (
+				16C08CA9197F59FC0066176D /* buzzedwordTests.m */,
+				16C08CA4197F59FC0066176D /* Supporting Files */,
+			);
+			path = buzzedwordTests;
+			sourceTree = "<group>";
+		};
+		16C08CA4197F59FC0066176D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C08CA5197F59FC0066176D /* buzzedwordTests-Info.plist */,
+				16C08CA6197F59FC0066176D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C08C80197F59FC0066176D /* buzzedword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C08CAD197F59FC0066176D /* Build configuration list for PBXNativeTarget "buzzedword" */;
+			buildPhases = (
+				16C08C7D197F59FC0066176D /* Sources */,
+				16C08C7E197F59FC0066176D /* Frameworks */,
+				16C08C7F197F59FC0066176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buzzedword;
+			productName = buzzedword;
+			productReference = 16C08C81197F59FC0066176D /* buzzedword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C08C9B197F59FC0066176D /* buzzedwordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C08CB0197F59FC0066176D /* Build configuration list for PBXNativeTarget "buzzedwordTests" */;
+			buildPhases = (
+				16C08C98197F59FC0066176D /* Sources */,
+				16C08C99197F59FC0066176D /* Frameworks */,
+				16C08C9A197F59FC0066176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C08CA2197F59FC0066176D /* PBXTargetDependency */,
+			);
+			name = buzzedwordTests;
+			productName = buzzedwordTests;
+			productReference = 16C08C9C197F59FC0066176D /* buzzedwordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C08C79197F59FC0066176D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = hjc;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jin Chung";
+				TargetAttributes = {
+					16C08C9B197F59FC0066176D = {
+						TestTargetID = 16C08C80197F59FC0066176D;
+					};
+				};
+			};
+			buildConfigurationList = 16C08C7C197F59FC0066176D /* Build configuration list for PBXProject "buzzedword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C08C78197F59FC0066176D;
+			productRefGroup = 16C08C82197F59FC0066176D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C08C80197F59FC0066176D /* buzzedword */,
+				16C08C9B197F59FC0066176D /* buzzedwordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C08C7F197F59FC0066176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08CB6197F5B560066176D /* Main.storyboard in Resources */,
+				16C08C8F197F59FC0066176D /* InfoPlist.strings in Resources */,
+				16C08C97197F59FC0066176D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C08C9A197F59FC0066176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08CA8197F59FC0066176D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C08C7D197F59FC0066176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08C95197F59FC0066176D /* hjcAppDelegate.m in Sources */,
+				16C08CBC197F5E810066176D /* hjcBuzzedwordTableViewController.m in Sources */,
+				16C08CBF197F72990066176D /* hjcNewGameViewController.m in Sources */,
+				16C08C91197F59FC0066176D /* main.m in Sources */,
+				16C08CB9197F5DAE0066176D /* hjcBuzzword.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C08C98197F59FC0066176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08CAA197F59FC0066176D /* buzzedwordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C08CA2197F59FC0066176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C08C80197F59FC0066176D /* buzzedword */;
+			targetProxy = 16C08CA1197F59FC0066176D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C08C8D197F59FC0066176D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C08C8E197F59FC0066176D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C08CA6197F59FC0066176D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C08CA7197F59FC0066176D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C08CAB197F59FC0066176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C08CAC197F59FC0066176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C08CAE197F59FC0066176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buzzedword/buzzedword-Prefix.pch";
+				INFOPLIST_FILE = "buzzedword/buzzedword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C08CAF197F59FC0066176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buzzedword/buzzedword-Prefix.pch";
+				INFOPLIST_FILE = "buzzedword/buzzedword-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16C08CB1197F59FC0066176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/buzzedword.app/buzzedword";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buzzedword/buzzedword-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "buzzedwordTests/buzzedwordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		16C08CB2197F59FC0066176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/buzzedword.app/buzzedword";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buzzedword/buzzedword-Prefix.pch";
+				INFOPLIST_FILE = "buzzedwordTests/buzzedwordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C08C7C197F59FC0066176D /* Build configuration list for PBXProject "buzzedword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C08CAB197F59FC0066176D /* Debug */,
+				16C08CAC197F59FC0066176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C08CAD197F59FC0066176D /* Build configuration list for PBXNativeTarget "buzzedword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C08CAE197F59FC0066176D /* Debug */,
+				16C08CAF197F59FC0066176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C08CB0197F59FC0066176D /* Build configuration list for PBXNativeTarget "buzzedwordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C08CB1197F59FC0066176D /* Debug */,
+				16C08CB2197F59FC0066176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C08C79197F59FC0066176D /* Project object */;
+}

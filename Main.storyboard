@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="MrN-C7-Wdf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Hjc Buzzedword Table View Controller-->
+        <scene sceneID="2sa-Ao-6RB">
+            <objects>
+                <tableViewController id="Kc5-q0-2IL" customClass="hjcBuzzedwordTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1XW-bJ-kkS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ListPrototypeCell" id="IOw-0Y-akt">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IOw-0Y-akt" id="1tu-ZL-rmK">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RQF-fn-rFL">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RQF-fn-rFL" id="sca-kl-61A">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="bri-vo-INn">
+                                <rect key="frame" x="0.0" y="110" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bri-vo-INn" id="pk7-UM-eD2">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="Kc5-q0-2IL" id="iSU-ip-Fzo"/>
+                            <outlet property="delegate" destination="Kc5-q0-2IL" id="xiq-Ys-6Il"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="0Vs-bV-nPR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FT9-vX-Jfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="-158"/>
+        </scene>
+        <!--Hjc New Game View Controller-->
+        <scene sceneID="lUc-At-mVD">
+            <objects>
+                <viewController id="MrN-C7-Wdf" customClass="hjcNewGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O6G-dd-Wbi"/>
+                        <viewControllerLayoutGuide type="bottom" id="lz8-u5-cP7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0hq-mg-51q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ih-VR-S4f">
+                                <rect key="frame" x="117" y="74" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New buzzword" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="19D-gC-buk">
+                                <rect key="frame" x="20" y="137" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New buzzword" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4n0-Fh-NrN">
+                                <rect key="frame" x="20" y="193" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New buzzword" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BK4-Tw-kLs">
+                                <rect key="frame" x="20" y="248" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIb-IN-wCI">
+                                <rect key="frame" x="104" y="313" width="113" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kc5-q0-2IL" kind="modal" identifier="NewGamePlay" id="E3R-On-10H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2ih-VR-S4f" firstAttribute="top" secondItem="O6G-dd-Wbi" secondAttribute="bottom" constant="54" id="1BN-e2-kGO"/>
+                            <constraint firstItem="2ih-VR-S4f" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="117" id="38G-Rt-k9Q"/>
+                            <constraint firstAttribute="centerX" secondItem="19D-gC-buk" secondAttribute="centerX" id="8WK-in-bBk"/>
+                            <constraint firstItem="BK4-Tw-kLs" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="9O3-Yc-Ldk"/>
+                            <constraint firstItem="BK4-Tw-kLs" firstAttribute="top" secondItem="4n0-Fh-NrN" secondAttribute="bottom" constant="25" id="9RL-PL-PCV"/>
+                            <constraint firstAttribute="trailing" secondItem="BK4-Tw-kLs" secondAttribute="trailing" constant="20" id="CfI-lg-uvW"/>
+                            <constraint firstItem="RIb-IN-wCI" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="104" id="Czj-82-2ZQ"/>
+                            <constraint firstAttribute="trailing" secondItem="4n0-Fh-NrN" secondAttribute="trailing" constant="20" id="K8i-aR-ayw"/>
+                            <constraint firstItem="19D-gC-buk" firstAttribute="top" secondItem="2ih-VR-S4f" secondAttribute="bottom" constant="42" id="LMW-8r-Wmi"/>
+                            <constraint firstAttribute="trailing" secondItem="2ih-VR-S4f" secondAttribute="trailing" constant="117" id="Lbk-J9-7AL"/>
+                            <constraint firstItem="4n0-Fh-NrN" firstAttribute="top" secondItem="19D-gC-buk" secondAttribute="bottom" constant="26" id="MfO-zt-UUc"/>
+                            <constraint firstItem="RIb-IN-wCI" firstAttribute="top" secondItem="BK4-Tw-kLs" secondAttribute="bottom" constant="35" id="NWo-A1-bLk"/>
+                            <constraint firstItem="4n0-Fh-NrN" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="boN-iI-uPo"/>
+                            <constraint firstAttribute="trailing" secondItem="RIb-IN-wCI" secondAttribute="trailing" constant="103" id="cvh-c6-Lc2"/>
+                            <constraint firstItem="19D-gC-buk" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="yYJ-7p-Kvr"/>
+                            <constraint firstAttribute="trailing" secondItem="19D-gC-buk" secondAttribute="trailing" constant="20" id="yZW-uB-fds"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startGameButton" destination="RIb-IN-wCI" id="WLY-Gz-AS8"/>
+                        <outlet property="textField1" destination="19D-gC-buk" id="04p-5c-7cA"/>
+                        <outlet property="textField2" destination="4n0-Fh-NrN" id="5oy-RD-kdZ"/>
+                        <outlet property="textField3" destination="BK4-Tw-kLs" id="8Z4-SN-xJJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pid-Te-DbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-222" y="-158"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
