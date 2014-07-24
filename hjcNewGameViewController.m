@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *textField1;
 @property (weak, nonatomic) IBOutlet UITextField *textField2;
 @property (weak, nonatomic) IBOutlet UITextField *textField3;
+@property (weak, nonatomic) IBOutlet UITextField *textField4;
+@property (weak, nonatomic) IBOutlet UITextField *textField5;
 @property (weak, nonatomic) IBOutlet UIButton *startGameButton;
 @property (nonatomic, assign) id currentResponder;
 @end
@@ -36,6 +38,19 @@
         [tvc.buzzwords addObject:second];
     }
     if (self.textField3.text.length > 0) {
+        hjcBuzzword *third = [[hjcBuzzword alloc] init];
+        third.buzzwordName = self.textField3.text;
+        third.score = 0;
+        [tvc.buzzwords addObject:third];
+    }
+    
+    if (self.textField4.text.length > 0) {
+        hjcBuzzword *second = [[hjcBuzzword alloc] init];
+        second.buzzwordName = self.textField2.text;
+        second.score = 0;
+        [tvc.buzzwords addObject:second];
+    }
+    if (self.textField5.text.length > 0) {
         hjcBuzzword *third = [[hjcBuzzword alloc] init];
         third.buzzwordName = self.textField3.text;
         third.score = 0;
