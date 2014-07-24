@@ -23,6 +23,7 @@
 		16C08CB9197F5DAE0066176D /* hjcBuzzword.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CB8197F5DAE0066176D /* hjcBuzzword.m */; };
 		16C08CBC197F5E810066176D /* hjcBuzzedwordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */; };
 		16C08CBF197F72990066176D /* hjcNewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C08CBE197F72990066176D /* hjcNewGameViewController.m */; };
+		FCE9500A1981652600BDE32E /* hjcBuzzedwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE950091981652600BDE32E /* hjcBuzzedwordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcBuzzedwordTableViewController.m; sourceTree = "<group>"; };
 		16C08CBD197F72990066176D /* hjcNewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjcNewGameViewController.h; sourceTree = "<group>"; };
 		16C08CBE197F72990066176D /* hjcNewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcNewGameViewController.m; sourceTree = "<group>"; };
+		FCE950081981652600BDE32E /* hjcBuzzedwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjcBuzzedwordViewController.h; sourceTree = "<group>"; };
+		FCE950091981652600BDE32E /* hjcBuzzedwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjcBuzzedwordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				16C08CB7197F5DAE0066176D /* hjcBuzzword.h */,
 				16C08CBA197F5E810066176D /* hjcBuzzedwordTableViewController.h */,
 				16C08CBB197F5E810066176D /* hjcBuzzedwordTableViewController.m */,
+				FCE950081981652600BDE32E /* hjcBuzzedwordViewController.h */,
+				FCE950091981652600BDE32E /* hjcBuzzedwordViewController.m */,
 				16C08CB8197F5DAE0066176D /* hjcBuzzword.m */,
 				16C08C8A197F59FC0066176D /* buzzedword */,
 				16C08CA3197F59FC0066176D /* buzzedwordTests */,
@@ -261,6 +266,7 @@
 			files = (
 				16C08C95197F59FC0066176D /* hjcAppDelegate.m in Sources */,
 				16C08CBC197F5E810066176D /* hjcBuzzedwordTableViewController.m in Sources */,
+				FCE9500A1981652600BDE32E /* hjcBuzzedwordViewController.m in Sources */,
 				16C08CBF197F72990066176D /* hjcNewGameViewController.m in Sources */,
 				16C08C91197F59FC0066176D /* main.m in Sources */,
 				16C08CB9197F5DAE0066176D /* hjcBuzzword.m in Sources */,

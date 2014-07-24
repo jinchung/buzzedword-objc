@@ -10,20 +10,19 @@
 #import "hjcBuzzedwordTableViewController.h"
 
 @interface hjcNewGameViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *textField1;
-@property (weak, nonatomic) IBOutlet UITextField *textField2;
-@property (weak, nonatomic) IBOutlet UITextField *textField3;
-@property (weak, nonatomic) IBOutlet UITextField *textField4;
-@property (weak, nonatomic) IBOutlet UITextField *textField5;
-@property (weak, nonatomic) IBOutlet UIButton *startGameButton;
+@property (strong, nonatomic) IBOutlet UITextField *textField1;
+@property (strong, nonatomic) IBOutlet UITextField *textField2;
+@property (strong, nonatomic) IBOutlet UITextField *textField3;
+@property (strong, nonatomic) IBOutlet UITextField *textField4;
+@property (strong, nonatomic) IBOutlet UITextField *textField5;
+@property (strong, nonatomic) IBOutlet UIButton *startGameButton;
 @property (nonatomic, assign) id currentResponder;
 @end
 
 @implementation hjcNewGameViewController
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if (sender != self.startGameButton) return;
-    hjcBuzzedwordTableViewController *tvc = (hjcBuzzedwordTableViewController *)[segue destinationViewController];
+    hjcBuzzedwordViewController *tvc = (hjcBuzzedwordViewController *)[segue destinationViewController];
     tvc.buzzwords = [[NSMutableArray alloc] init];
     if (self.textField1.text.length > 0) {
         hjcBuzzword *first = [[hjcBuzzword alloc] init];
@@ -89,6 +88,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)pushToGamePlay:(id)sender
+{
+    //NewGamePlay
+    [self performSegueWithIdentifier:@"NewGamePlay" sender: self];
 }
 
 /*

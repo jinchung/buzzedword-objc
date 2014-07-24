@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "hjcBuzzword.h"
+#import "hjcBuzzedwordViewController.h"
 
 @interface hjcNewGameViewController : UIViewController <UITextFieldDelegate>
+-(IBAction)pushToGamePlay:(id)sender;
 @end

@@ -49,7 +49,48 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FT9-vX-Jfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="168" y="-158"/>
+            <point key="canvasLocation" x="272" y="-406"/>
+        </scene>
+        <!--Hjc Buzzedword View Controller-->
+        <scene sceneID="eyU-CX-I0I">
+            <objects>
+                <viewController id="BxC-0t-gRF" customClass="hjcBuzzedwordViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z1h-vN-LQk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BSH-xw-vGI">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListPrototypeCell" id="P4P-do-Xhg">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P4P-do-Xhg" id="07g-er-o0m">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BxC-0t-gRF" id="cmx-to-t3C"/>
+                                    <outlet property="delegate" destination="BxC-0t-gRF" id="7CT-M2-lfl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gd1-hy-zCB"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="BSH-xw-vGI" id="SpD-XN-owm"/>
+                        <outlet property="view" destination="Z1h-vN-LQk" id="fAA-cv-3of"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mid-sC-hyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="263"/>
         </scene>
         <!--Hjc New Game View Controller-->
         <scene sceneID="lUc-At-mVD">
@@ -91,7 +132,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Kc5-q0-2IL" kind="modal" identifier="NewGamePlay" id="E3R-On-10H"/>
+                                    <action selector="pushToGamePlay:" destination="MrN-C7-Wdf" eventType="touchUpInside" id="HWC-WY-oEC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New buzzword" textAlignment="center" minimumFontSize="17" id="hVT-xd-wMq">
@@ -117,6 +158,7 @@
                         <outlet property="textField3" destination="BK4-Tw-kLs" id="8Z4-SN-xJJ"/>
                         <outlet property="textField4" destination="hVT-xd-wMq" id="6hr-gG-f4L"/>
                         <outlet property="textField5" destination="JDD-VJ-jSo" id="Ai1-oV-9wH"/>
+                        <segue destination="BxC-0t-gRF" kind="push" identifier="NewGamePlay" id="Knz-bc-U94"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pid-Te-DbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
