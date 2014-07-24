@@ -62,8 +62,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ih-VR-S4f">
-                                <rect key="frame" x="117" y="74" width="86" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="buzzedword" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ih-VR-S4f">
+                                <rect key="frame" x="110" y="76" width="100" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -101,7 +101,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2ih-VR-S4f" firstAttribute="top" secondItem="O6G-dd-Wbi" secondAttribute="bottom" constant="54" id="1BN-e2-kGO"/>
-                            <constraint firstItem="2ih-VR-S4f" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="117" id="38G-Rt-k9Q"/>
                             <constraint firstAttribute="centerX" secondItem="19D-gC-buk" secondAttribute="centerX" id="8WK-in-bBk"/>
                             <constraint firstItem="BK4-Tw-kLs" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="9O3-Yc-Ldk"/>
                             <constraint firstItem="BK4-Tw-kLs" firstAttribute="top" secondItem="4n0-Fh-NrN" secondAttribute="bottom" constant="25" id="9RL-PL-PCV"/>
@@ -109,11 +108,12 @@
                             <constraint firstItem="RIb-IN-wCI" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="104" id="Czj-82-2ZQ"/>
                             <constraint firstAttribute="trailing" secondItem="4n0-Fh-NrN" secondAttribute="trailing" constant="20" id="K8i-aR-ayw"/>
                             <constraint firstItem="19D-gC-buk" firstAttribute="top" secondItem="2ih-VR-S4f" secondAttribute="bottom" constant="42" id="LMW-8r-Wmi"/>
-                            <constraint firstAttribute="trailing" secondItem="2ih-VR-S4f" secondAttribute="trailing" constant="117" id="Lbk-J9-7AL"/>
                             <constraint firstItem="4n0-Fh-NrN" firstAttribute="top" secondItem="19D-gC-buk" secondAttribute="bottom" constant="26" id="MfO-zt-UUc"/>
                             <constraint firstItem="RIb-IN-wCI" firstAttribute="top" secondItem="BK4-Tw-kLs" secondAttribute="bottom" constant="35" id="NWo-A1-bLk"/>
+                            <constraint firstItem="2ih-VR-S4f" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="110" id="ZgP-jf-vv2"/>
                             <constraint firstItem="4n0-Fh-NrN" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="boN-iI-uPo"/>
                             <constraint firstAttribute="trailing" secondItem="RIb-IN-wCI" secondAttribute="trailing" constant="103" id="cvh-c6-Lc2"/>
+                            <constraint firstAttribute="trailing" secondItem="2ih-VR-S4f" secondAttribute="trailing" constant="110" id="hwH-JY-kZ3"/>
                             <constraint firstItem="19D-gC-buk" firstAttribute="leading" secondItem="0hq-mg-51q" secondAttribute="leading" constant="20" id="yYJ-7p-Kvr"/>
                             <constraint firstAttribute="trailing" secondItem="19D-gC-buk" secondAttribute="trailing" constant="20" id="yZW-uB-fds"/>
                         </constraints>
