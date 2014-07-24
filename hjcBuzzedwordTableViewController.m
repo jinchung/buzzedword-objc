@@ -90,6 +90,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListPrototypeCell" forIndexPath:indexPath];
     hjcBuzzword *buzzword = [self.buzzwords objectAtIndex:indexPath.row];
     cell.textLabel.text = [NSMutableString stringWithFormat:@"%@ | %d", buzzword.buzzwordName, buzzword.score];
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
     return cell;
 }
 
