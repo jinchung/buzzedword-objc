@@ -80,6 +80,9 @@
     self.textField1.delegate = self;
     self.textField2.delegate = self;
     self.textField3.delegate = self;
+    self.textField4.delegate = self;
+    self.textField5.delegate = self;
+    self.title  = @"BuzzedWord";
 }
 
 - (void)didReceiveMemoryWarning

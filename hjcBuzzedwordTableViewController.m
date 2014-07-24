@@ -45,6 +45,7 @@
     if ([self.buzzwords count] == 0) {
         [self loadDefaultData];
     }
+    self.navigationController.navigationBar.hidden = NO;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
